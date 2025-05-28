@@ -13,6 +13,11 @@ npm run dev
 npm run dev -- --no-turbo
 
 ```
+### fastapi(パス確認して)
+```bash
+uvicorn api.app.main:app --reload 
+
+```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
