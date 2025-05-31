@@ -34,5 +34,5 @@ async def generate_recipe(ingredients: list[str]) -> str:
     """
 
 
-    response = model.generate_content(prompt)
+    response = await model.generate_content(prompt)
     return response.text
